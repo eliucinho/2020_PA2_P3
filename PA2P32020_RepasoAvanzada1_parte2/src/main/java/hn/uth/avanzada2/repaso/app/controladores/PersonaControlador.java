@@ -20,7 +20,8 @@ public class PersonaControlador {
         PersonaRepositorio repo=new PersonaRepositorio();    
         
         Persona entidad=new Persona(id, nombre, apellido);        
-        repo.crear(entidad);
+        repo.crear(entidad); 
+        
     }
     
     public void actualizar(int id, String nombre, String apellido) throws Exception{
