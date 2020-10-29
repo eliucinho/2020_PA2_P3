@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Repaso Javascript</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos/index.css">
+        <script src="js/index.js"></script>       
+    </head>
+    <body>
+        <button onclick="incrementarTamanio()">Incrementar</button>
+        <img src="imagenes/coche_azul.png" alt="coche azul" id="imgVehiculo">
+        <label for="valorMultiplicar">Valor a Multiplicar: </label>
+        <input type="text" id="valorMultiplicarId" name="valorMultiplicarNombre">
+        <br>
+        <input type="text" id="resultadoId" name="resultadoNombre">
+        <br>
+        <div >
+            <ul id="resultadoMultiplicacion">
+            </ul>
+        </div>
+        <br>
+        <div id="resultadoCuenta"></div>
+        <br>
+        <button onclick="calcularMultiplicacion()" >calcular</button>
+        <br>
+        <button onclick="incrementarContador()" >incrementar contador</button>
+    </body>
+</html>

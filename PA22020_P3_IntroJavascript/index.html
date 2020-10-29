@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>UTH PA2</title>
+        <meta name="viewport" content="width=device.width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="estilos/index.css"> 
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 >Introducción a Javascript/h1>
+        </header>
+        <nav >
+            <a href="paginas/tablas.html" >
+                <h4>Ir a tablas</h4>
+            </a>
+            <a href="paginas/bootstrap.html" >
+                <h4>Ir a bootstrap</h4>
+            </a>
+            <a href="https://www.uth.hn/" >
+                <h4>Ir a UTH</h4>
+            </a>
+        </nav> 
+        <main >
+            <h2>Ejemplos</h2>            
+            <form name="formularioSuma" onsubmit="validarFormulario()">
+                <div id="mensajeError" style="color: red;"></div>
+                <div id="mensajeInformacion" style="color: green;"></div>
+                <label for="txtA">A: </label>
+                <input type="text" id="txtA" name="txtA">
+                <br>
+                <label for="txtB">B: </label>
+                <input type="text" id="txtB" name="txtB" >
+                <br>   
+                <label for="txtResultado">Resultado: </label>
+                <input type="number" id="txtResultado" name="txtResultado">
+                <br>
+                <button id="btnSumar" name="btnSumar"
+                     onclick="sumarFormulario()"
+                     ondblclick="alert('doble clic en sumar')">Sumar</button>
+            </form>
+            <button id="btnCambiarImagen" name="btnCambiarImagen"
+                     onclick="cambiarImagenUTH()">Cambiar Imagen</button>
+            <img id="imagenUth" src="imagenes/UthFoto.png" width="100%" height="100%" alt="Fotografia de la entrada principal de UTH">
+            <div id="espacioInsertar"></div>
+            <button id="btnInsertarHTML" name="btnInsertarHTML"
+                     onclick="insertarHtml()">Insertar HTML</button>
+            
+        </main>
+        <aside >
+            <h5>Hola soy un anuncio</h5>
+        </aside>
+        <footer >
+            <h6>Derechos reservados pa2</h6>
+        </footer>
+    </body>
+</html>

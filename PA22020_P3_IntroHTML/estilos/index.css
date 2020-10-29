@@ -1,0 +1,15 @@
+h1, main, footer{
+    background-color: cyan;
+    width: 100%;
+    margin: 49px;
+    padding: 118px;
+    border: dashed;
+}
+nav, aside{
+    background-color: yellow;
+    display: block;
+    width: 90%;
+    margin: 49px;
+    padding: 118px;
+    border: dashed;
+}
