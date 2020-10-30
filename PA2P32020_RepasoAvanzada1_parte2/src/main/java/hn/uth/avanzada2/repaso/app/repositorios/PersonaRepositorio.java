@@ -21,8 +21,8 @@ import java.util.List;
 public class PersonaRepositorio {
     private Connection getCon() throws Exception{
         try {
-            String usuario="pa2";
-            String contrasenia="pa2";
+            String usuario="app";
+            String contrasenia="app";
             String url="jdbc:derby://localhost:1527/pa2";
             
             return DriverManager.getConnection(url, usuario, contrasenia);
